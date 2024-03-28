@@ -1,0 +1,114 @@
+/* Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* root styles */
+:root{
+    --Colour-1: hsl(0, 0%, 17%);
+    --Colour-2: hsl(0, 0%, 59%);
+    --Colour-3: #fff;
+    --Colour-4: black;
+
+    --Font-textinput: 18px;
+
+    --Font-Family: "Rubik", sans-serif;
+    --Font-size-L: clamp(1.728rem,5vw,2.986rem);
+    --Font-size-M: clamp(1.2rem,5vw,1.44rem);
+    --Font-size-S: clamp(0.833rem,5vw,1.2rem);
+
+    font-family: var(--Font-Family);
+    
+}
+/* universal reset */
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+/* background image top section */
+.top-background{
+    background-image: url(../images/pattern-bg-mobile.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (min-width:375px){
+    /* background image top section on bigger screens */
+    .top-background{
+        background-image: url(../images/pattern-bg-desktop.png);
+        background-size: cover;
+    }
+}
+
+/* title */
+.title{
+    color: var(--Colour-3);
+    padding: 2rem 0 1rem 0;
+    font-size: var(--Font-size-L);
+}
+
+/* ip - input */
+.ip-input-container{
+    padding: 1rem 0 10rem 0;
+    display: flex;
+    width: 90%;
+    max-width: 550px;
+}
+.ip-input{
+    border-radius: 10px 0 0 10px;
+    padding: 0.8rem;
+    width: 98%;
+    font-size: var(--Font-size-S);
+}
+.ip-input-btn{
+    background-color: var(--Colour-4) ;
+    padding: 0.8rem 0.8rem;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+
+/*  output element */
+.output{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Colour-3);
+    position:absolute;
+    top: 13em;
+    padding: 1rem;
+    width: 80%;
+}
+.output-container{
+    text-align: center;
+    padding: 0 0 1rem 0 ;
+}
+.output-title{
+    color: var(--Colour-2);
+    font-weight: 600;
+    font-size: 0.7rem;
+    letter-spacing: 0.1125rem;
+    padding: 0 0 0.25rem 0;
+}
+
+/* Map */
+#map{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/* Footer */
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
