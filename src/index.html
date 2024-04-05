@@ -17,10 +17,15 @@
   <section class="top-background">
     <h1 class="title">IP Address Tracker</h1>
     <div class="ip-input-container">
-      <input class="ip-input"type="text" placeholder="Search for IP address or domain">
-      <button class="ip-input-btn"type="submit">
-        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="14"><path fill="none" stroke="#FFF" stroke-width="3" d="M2 1l6 6-6 6"/></svg>
-      </button>
+      <div class="ip-input-second-container">
+        <input id="inputfield"class="ip-input"type="text" placeholder="Search for IP address or domain">
+        <button id="submitbtn"class="ip-input-btn"type="submit">
+          <svg xmlns="http://www.w3.org/2000/svg" width="11" height="14"><path fill="none" stroke="#FFF" stroke-width="3" d="M2 1l6 6-6 6"/></svg>
+        </button>
+      </div>
+      <div class="error-container">
+        <p class="error-message">Invalid input please enter a ipv4 or ipv6 address</p>
+      </div>
     </div>
     <section class="output">
       <div class="output-container ">

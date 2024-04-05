@@ -7,6 +7,7 @@
     --Colour-2: hsl(0, 0%, 59%);
     --Colour-3: #fff;
     --Colour-4: black;
+    --Colour-Error: yellow;
 
     --Font-textinput: 18px;
 
@@ -57,8 +58,12 @@ body{
 .ip-input-container{
     padding: 1rem 0 10rem 0;
     display: flex;
+    flex-direction: column;
     width: 90%;
     max-width: 550px;
+}
+.ip-input-second-container{
+    display: flex;
 }
 .ip-input{
     border-radius: 10px 0 0 10px;
@@ -71,6 +76,13 @@ body{
     padding: 0.8rem 0.8rem;
     border-radius: 0 10px 10px 0;
     cursor: pointer;
+}
+.error-message{
+    color: var(--Colour-Error);
+    display: none;
+}
+.visible{
+    display: block !important;
 }
 
 /*  output element */
@@ -96,7 +108,7 @@ body{
     letter-spacing: 0.1125rem;
     padding: 0 0 0.25rem 0;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 910px) {
     .output{
         flex-direction: row;
         gap: 4rem;
@@ -111,8 +123,13 @@ body{
 
 /* Map */
 #map{
-    height: 70vh;
+    height: 75vh;
     width: 100%;
+}
+@media screen and (min-width: 1440px) {
+    #map{
+        height: 90vh;
+    }
 }
 
 
