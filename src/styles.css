@@ -77,6 +77,9 @@ body{
     border-radius: 0 10px 10px 0;
     cursor: pointer;
 }
+.ip-input-btn:hover{
+    background-color: var(--Colour-2);
+}
 .error-message{
     color: var(--Colour-Error);
     display: none;
@@ -108,7 +111,7 @@ body{
     letter-spacing: 0.1125rem;
     padding: 0 0 0.25rem 0;
 }
-@media screen and (min-width: 910px) {
+@media screen and (min-width: 1024px) {
     .output{
         flex-direction: row;
         gap: 4rem;
@@ -119,6 +122,15 @@ body{
     .output-container{
         padding: 1rem 1rem 2rem 1rem;
     }
+    .output-divider{
+        border: 1px solid var(--Colour-2);
+        opacity: 0.5;
+        height: 6rem;
+        position: relative;
+        width: 1px;
+        margin-top: 1.5%;
+    }
+    
 }
 
 /* Map */
