@@ -34,7 +34,7 @@ body{
 
 /* background image top section */
 .top-background{
-    background-image: url(../images/pattern-bg-mobile.png);
+    background-image: url(./images/pattern-bg-mobile.png);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,7 +42,7 @@ body{
 @media screen and (min-width:375px){
     /* background image top section on bigger screens */
     .top-background{
-        background-image: url(../images/pattern-bg-desktop.png);
+        background-image: url(./images/pattern-bg-desktop.png);
         background-size: cover;
     }
 }
