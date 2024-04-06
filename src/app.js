@@ -23,7 +23,7 @@ let long = -0.09
 
 // map marker icon
 const myMarker = L.icon({
-    iconUrl: ".\images\Screenshot(65)",
+    iconUrl: ".\images\Screenshot (65).png",
     iconSize: [38, 50]
 })
 
