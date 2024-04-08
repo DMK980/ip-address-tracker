@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Githublink](https://dmk980.github.io/ip-address-tracker/)
-- Live Site URL: [Live Demo](https://ip-address-tracker-o1t3kqwqw-dmk980s-projects.vercel.app/)
+- Live Site URL: [Live Demo](https://ip-address-tracker-mocha-nu.vercel.app/)
 
 - The live demo might not be functioning since the API has a limit on the amount of call for a free plan
 
