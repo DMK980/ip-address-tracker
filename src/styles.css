@@ -99,10 +99,11 @@ body{
     padding: 2rem;
     width: fit-content;
     z-index: 10000;
+    margin: 0 1rem 0 1rem
 }
 .output-container{
     text-align: center;
-    width: fit-content;
+    /* width: fit-content; */
     padding: 0 1rem 1rem 1rem ;
 }
 .output-title{
@@ -118,10 +119,10 @@ body{
         gap: 4rem;
         justify-content: center;
         max-width: 2000px;
-        width: 90%;
+        /* width: 90%; */
     }
     .output-container{
-        padding: 1rem 1rem 2rem 1rem;
+        padding: 1rem 1rem 1rem 1rem;
     }
     .output-divider{
         border: 1px solid var(--Colour-2);
